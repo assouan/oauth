@@ -7,13 +7,13 @@
         "php": ">=8.5",
         "ext-json": "*",
         "assouan/http-proxy-socket": "^0.1",
-        "assouan/http-sender": "^0.1",
+        "assouan/sender": "^0.1",
         "assouan/serializable": "^0.1",
         "assouan/timer": "^0.1"
     },
     "autoload": {
         "psr-4": {
-            "A\\": "src/A/"
+            "A\\OAuth\\": "src/A/OAuth/"
         }
     }
 }
